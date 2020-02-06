@@ -1,0 +1,17 @@
+{
+    "name": "mainuser/src",
+    "authors": [
+        {
+            "name": "mainuser",
+            "email": "mainuser@mainuser.com"
+        }
+    ],
+    "require": {},
+
+    "autoload": {
+        "psr-4": {
+            "App\\": ["App"],
+            "public\\": ["public"]
+        }
+    }
+}
